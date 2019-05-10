@@ -92,11 +92,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DLGNavigation.feature</DependentUpon>
     </Compile>
-    <Compile Include="DLGFeature\Registrationnumberverification.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Registrationnumberverification.feature</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stepdefinitions\Navigation and Search.cs" />
   </ItemGroup>
@@ -104,10 +99,6 @@
     <None Include="DLGFeature\DLGNavigation.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DLGNavigation.feature.cs</LastGenOutput>
-    </None>
-    <None Include="DLGFeature\Registrationnumberverification.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Registrationnumberverification.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
